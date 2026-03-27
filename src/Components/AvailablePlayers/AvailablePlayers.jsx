@@ -1,23 +1,53 @@
 import React from 'react';
+import { FaFlag, FaUser } from 'react-icons/fa';
 
-const AvailablePlayers = ({ player }) => {
-    console.log('players ', player);
+const AvailablePlayers = ({ players }) => {
+    console.log(players);
+
+
+
     return (
-        <div>
-            <div className="card bg-base-100 w-96 shadow-sm">
-                <figure>
-                    <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                        alt="Shoes" />
-                </figure>
-                <div className="card-body">
-                    <h2 className="card-title">{player.playerName}</h2>
-                    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary">Buy Now</button>
-                    </div>
-                </div>
+        <div className='my-10'>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-5">
+                {
+                    players.map((player) => {
+                        const { id, playerName, country, playerType, rating, battingStyle, bowlingStyle, price, image } = player;
+                        return (
+                            <div className="card bg-base-100 shadow-lg hover:shadow-2xl transition-shadow duration-300 ">
+                                <figure>
+                                    <img className='' src={image} />
+                                </figure>
+                                <div className="card-body">
+                                    <h2 className="card-title"><FaUser />{playerName}</h2>
+
+                                    <div className="flex justify-between gap-2 items-center">
+                                        <div className="flex  gap-2 items-center">
+                                            <FaFlag />
+                                            <p>{country}</p>
+                                        </div>
+                                        <button className="btn btn-ghost">{playerType}</button>
+                                    </div>
+
+                                    <span className="divider m-0"></span>
+                                    <h2 className="font-bold">{rating}</h2>
+
+                                    <div className="flex justify-between items-center ">
+                                        <span className="font-bold">{battingStyle}</span>
+                                        <span className="">{bowlingStyle}</span>
+                                    </div>
+
+                                    <div className="card-actions justify-between items-center">
+                                        <p className='font-bold'>Price: {price}</p>
+                                        <button className="btn btn-primary">Choose player</button>
+                                    </div>
+                                </div>
+                            </div>)
+                    })
+                }
             </div>
+
+
         </div>
     );
 };

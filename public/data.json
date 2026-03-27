@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "playerName": "Virat Kohli",
+    "country": "India",
+    "playerType": "Batsman",
+    "rating": 95,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm medium",
+    "price": "₹17 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600856/koholi_ekeuok.avif"
+  },
+  {
+    "id": 2,
+    "playerName": "Steve Smith",
+    "country": "Australia",
+    "playerType": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm leg break",
+    "price": "₹12 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774597517/steve_jlecxa.jpg"
+  },
+  {
+    "id": 3,
+    "playerName": "Joe Root",
+    "country": "England",
+    "playerType": "Batsman",
+    "rating": 89,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": "₹11 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774597633/Joe_gmdxmc.jpg"
+  },
+  {
+    "id": 4,
+    "playerName": "Kane Williamson",
+    "country": "New Zealand",
+    "playerType": "Batsman",
+    "rating": 88,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm off break",
+    "price": "₹10 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774597750/kane_kfr2fv.jpg"
+  },
+  {
+    "id": 5,
+    "playerName": "Ben Stokes",
+    "country": "England",
+    "playerType": "All-Rounder",
+    "rating": 92,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": "₹16 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600205/Ben_dng2jd.png"
+  },
+  {
+    "id": 6,
+    "playerName": "Hardik Pandya",
+    "country": "India",
+    "playerType": "All-Rounder",
+    "rating": 91,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast-medium",
+    "price": "₹15 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600305/hardik_u7fiir.avif"
+  },
+  {
+    "id": 7,
+    "playerName": "Jasprit Bumrah",
+    "country": "India",
+    "playerType": "Bowler",
+    "rating": 94,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Right-arm fast",
+    "price": "₹18 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600405/bumrah_ywvgah.avif"
+  },
+  {
+    "id": 8,
+    "playerName": "Trent Boult",
+    "country": "New Zealand",
+    "playerType": "Bowler",
+    "rating": 90,
+    "battingStyle": "Right-hand bat",
+    "bowlingStyle": "Left-arm fast-medium",
+    "price": "₹13 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600480/tarent_gbkrpy.avif"
+  },
+  {
+    "id": 9,
+    "playerName": "Quinton de Kock",
+    "country": "South Africa",
+    "playerType": "Wicketkeeper-Batsman",
+    "rating": 87,
+    "battingStyle": "Left-hand bat",
+    "bowlingStyle": "None",
+    "price": "₹9 Cr",
+    "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600655/kock_bachf7.png"
+  }
+]

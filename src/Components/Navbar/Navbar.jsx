@@ -1,20 +1,23 @@
 import React from 'react';
 import coin from '../../assets/coin.png'
+import logo from '../../../src/assets/logo.png'
 const Navbar = () => {
     return (
-        <div>
+        <nav>
             <div className="navbar bg-base-100 shadow-sm">
                 <div className="flex-1">
-                    <a className="btn btn-ghost text-xl">daisyUI</a>
+                    <a className="btn btn-ghost text-xl">
+                        <img className='h-11 w-11' src={logo} alt="" />
+                    </a>
                 </div>
                 <div className="flex-none">
                     <button className="flex justify-between items-center gap-2">
-                        <p className="font-bold"><span id=''>0</span>coins</p> 
-                        <img className='h-[30px] w-[30px]' src={coin} alt="" srcset="" />
+                        <p className="font-bold text-xl"><span id=''>0</span> Coins</p>
+                        <img className='h-7.5 w-7.5' src={coin} />
                     </button>
                 </div>
             </div>
-        </div>
+        </nav>
     );
 };
 

@@ -4,7 +4,9 @@ import SelectedPlayers from '../../SelectedPlayers/SelectedPlayers';
 
 const Players = ({ playersPromise, setCoin, coin }) => {
     const players = use(playersPromise)
-    const [selectedType, setSelectedType] = useState('available')
+    const [selectedType, setSelectedType] = useState('available');
+    const [selectedPlayers, setSelectedPlayers] = useState([]);
+
     return (
         <div className='container mx-auto mt-10'>
 
@@ -16,12 +18,12 @@ const Players = ({ playersPromise, setCoin, coin }) => {
                 }
 
                 <div className="">
-                    <btn onClick={() => setSelectedType('available')} className={`btn ${selectedType === "available" ? 'bg-[#e7fe29]' : 'bg-white'}  rounded-r-none rounded-l-xl`}>Available</btn>
-                    <btn onClick={() => setSelectedType('selected')} className={`btn ${selectedType === "selected" ? 'bg-[#e7fe29]' : 'bg-white'}  rounded-l-none rounded-r-xl`}>Selected <span>(0)</span></btn>
+                    <button onClick={() => setSelectedType('available')} className={`btn ${selectedType === "available" ? 'bg-[#e7fe29]' : 'bg-white'}  rounded-r-none rounded-l-xl`}>Available</button>
+                    <button onClick={() => setSelectedType('selected')} className={`btn ${selectedType === "selected" ? 'bg-[#e7fe29]' : 'bg-white'}  rounded-l-none rounded-r-xl`}>Selected <span>(0)</span></button>
                 </div>
             </div>
 
-            {selectedType === 'available' ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin} /> : <SelectedPlayers></SelectedPlayers>}
+            {selectedType === 'available' ? <AvailablePlayers players={players} setCoin={setCoin} coin={coin} setSelectedPlayers={setSelectedPlayers} selectedPlayers={selectedPlayers} /> : <SelectedPlayers selectedPlayers={selectedPlayers}></SelectedPlayers>}
         </div>
     );
 };

@@ -7,7 +7,7 @@
     "rating": 95,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": "₹17 Cr",
+    "price": 170000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600856/koholi_ekeuok.avif"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 90,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg break",
-    "price": "₹12 Cr",
+    "price": 120000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774597517/steve_jlecxa.jpg"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 89,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": "₹11 Cr",
+    "price": 110000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774597633/Joe_gmdxmc.jpg"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 88,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": "₹10 Cr",
+    "price": 100000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774597750/kane_kfr2fv.jpg"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 92,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": "₹16 Cr",
+    "price": 160000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600205/Ben_dng2jd.png"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 91,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast-medium",
-    "price": "₹15 Cr",
+    "price": 150000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600305/hardik_u7fiir.avif"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 94,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": "₹18 Cr",
+    "price": 180000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600405/bumrah_ywvgah.avif"
   },
   {
@@ -84,7 +84,7 @@
     "rating": 90,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Left-arm fast-medium",
-    "price": "₹13 Cr",
+    "price": 130000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600480/tarent_gbkrpy.avif"
   },
   {
@@ -95,7 +95,7 @@
     "rating": 87,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "None",
-    "price": "₹9 Cr",
+    "price": 90000,
     "image": "https://res.cloudinary.com/dk2apd10z/image/upload/v1774600655/kock_bachf7.png"
   }
 ]

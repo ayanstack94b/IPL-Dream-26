@@ -1,9 +1,9 @@
 import React from 'react';
-
+import hero from '../../../../src/assets/hero.png'
 const Banner = () => {
     return (
         <div className='min-h-[60vh] bg-linear-to-r from-purple-500 to-purple-200'>
-            Banner
+            <img src={hero} className='brightness-70' alt="" />
         </div>
     );
 };
